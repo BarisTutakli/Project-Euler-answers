@@ -1,2 +1,2 @@
 # Project-Euler-answers
-I solved these question in c++.
+I solved these questions in c++.
