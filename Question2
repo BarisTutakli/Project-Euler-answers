@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+  int a=1;
+  int b=2;
+  int sum=0;
+while(a+b<4000000){
+  a =a+b;
+  b=a+b;
+ // cout <<a<<"-- "<<b<<"\n";
+  if(a%2==0){
+    sum+=a;
+  }
+  if(b%2==0){
+    sum+=b;
+  }
+  
+}
+// İn the final step ı added 2 because, ı havent added 2 in the beginning.
+cout << sum+2;
+}
