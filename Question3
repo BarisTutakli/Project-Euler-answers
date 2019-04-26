@@ -1,0 +1,24 @@
+#include <iostream>
+//  
+using namespace std;
+int main() {
+  long anynumber;//assign a value to anynumber
+  long b=0;
+  for(long i=3;i<anynumber;i++){
+    bool t=true;
+      for(long k=2;k<i;k++){
+        if(i%k==0){
+          t=false;
+        } 
+    }
+    if(t==true){
+      //cout <<i<<"\n";
+      b=i;
+    }else{
+      t=true;
+    }
+  
+  }
+  cout <<"Max number"<<b;
+  
+}
